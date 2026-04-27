@@ -1,8 +1,6 @@
 
 body, html {
  margin: 0;
-body, html {
- margin: 0;
  padding: 0;
  background-color:ghostwhite;
 }
@@ -10,14 +8,14 @@ body, html {
 .grid {
   display: grid;
   place-content: center;
-  margin: 16px;
-  grid-template-columns: repeat(auto-fill, 80px);
+  margin: 8px;
+  grid-template-columns: repeat(auto-fill, 60px);
   gap: 10px;
 }
 
 .cell {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background: center/cover;
   cursor: pointer;
   transition: 0.3s;
@@ -33,52 +31,7 @@ body, html {
   margin-top: 20vh;
   transition: 0.5s;
   text-align: center;
-  font-size: 36px;
-  color:cadetblue;
-  font-family: "Coiny", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.message.show {
-  opacity: 1;
-}
- padding: 0;
- background-color:ghostwhite;
-}
-
-.grid {
-  display: grid;
-  place-content: center;
-  margin: 16px;
-  grid-template-columns: repeat(auto-fill, 80px);
-  gap: 10px;
-}
-
-.cell {
-  width: 80px;
-  height: 80px;
-  background: center/cover;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.cell:hover {
-  transform: scale(1.2) translateY(-5px);
-  filter: brightness(2) drop-shadow(0 4px 8px rgba(0,0,0,0.1));
-}
-
-.cell:active {
-  transform: scale(1.2);
-  filter: brightness(1.5);
-}
-
-.message {
-  opacity: 0;
-  margin-top: 20vh;
-  transition: 0.5s;
-  text-align: center;
-  font-size: 36px;
+  font-size: 24px;
   color:cadetblue;
   font-family: "Coiny", system-ui;
   font-weight: 400;
