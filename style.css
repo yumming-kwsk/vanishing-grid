@@ -21,10 +21,10 @@ body, html {
   transition: 0.3s;
 }
 
-.cell:active {
+/* .cell:active {
   transform: scale(1.2);
   filter: brightness(2);
-}
+} */
 
 .message {
   opacity: 0;
