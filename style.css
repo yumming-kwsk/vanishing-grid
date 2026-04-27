@@ -19,6 +19,7 @@ body, html {
   background: center/cover;
   cursor: pointer;
   transition: 0.3s;
+  animation: spin 8s linear infinite;
 }
 
 /* .cell:active {
@@ -40,4 +41,10 @@ body, html {
 
 .message.show {
   opacity: 1;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
